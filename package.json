@@ -1,0 +1,15 @@
+{
+  "name": "atom-expressionengine",
+  "version": "0.0.0",
+  "description": "Syntax highlighting and snippets for ExpressionEngine 3",
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindpixel-labs/atom-expressionengine"
+  },
+  "bugs": {
+    "url": "https://github.com/mindpixel-labs/atom-expressionengine/issues"
+  }
+}

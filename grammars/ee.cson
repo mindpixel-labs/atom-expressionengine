@@ -1,0 +1,98 @@
+'scopeName': 'source.ee'
+'name': 'ExpressionEngine 3'
+'fileTypes': [
+  'html'
+]
+'patterns': [
+  {
+    'include': 'text.html.basic'
+  }
+  {
+    'include': '#components'
+  }
+]
+'repository': {
+  'components': {
+    'patterns': [
+      {
+        'include': '#comment'
+      }
+      {
+        'include': '#tags'
+      }
+    ]
+  }
+
+  # Comment Tag
+  'comment': {
+    'begin': '\\{!--'
+    'end': '--\\}'
+    'name': 'comment.block.ee'
+  }
+
+  # Template Tags
+  'tags': {
+    'begin': '({\/?)'
+    'end': '(})'
+    'name': 'text.html.ee'
+    'patterns': [
+      {
+        'include': '#tags'
+      }
+      {
+        'include': '#comparison-and-or-ee'
+      }
+      {
+        'include': '#comparison-operators-ee'
+      }
+      {
+        'include': '#tag-param-ee'
+      }
+      {
+        'include': '#conditionals-ee'
+      }
+      {
+        'include': '#module-tag-ee'
+      }
+      {
+        'include': '#quoted-ee'
+      }
+    ]
+  }
+
+  # Module Tag
+  'module-tag-ee':
+    'match': '(\\w+:?|\\w+:?|\\w+=?)'
+    'captures':
+      '1':
+          'name': 'text.html.ee'
+
+  # Double Quoted Strings
+  'quoted-ee':
+    'match': '(?:[\'""])([\\s._\\-a-zA-Z0-9\/|]+)(?:[\'""])'
+    'captures':
+      '1':
+          'name': 'string.quoted.double.php.ee'
+
+  # Tag Param
+  'tag-param-ee':
+    'match': '(\\w+)=|\\s(\\w+)\\s'
+    'captures':
+      '1':
+          'name': 'support.function.construct.begin.ee'
+
+  # Conditional Keywords
+  'conditionals-ee':
+    'match': '(\/?if(:else)?(:elseif)?)'
+    'name': 'keyword.control.if.php.ee'
+
+  # Comparison Operators
+  'comparison-operators-ee':
+    'match': '(\\(|\\)|<=|>=|<>|<|>|=|!=|==|===|!==|~|\\^=|\\*=|\\$=|\\^|\\*\\*|\\/|\\%|\\+|-)'
+    'name': 'keyword.operator.other.ee'
+
+  # Conditional Logical Operators
+  'comparison-and-or-ee':
+    'match': '\\s?(and|AND|or|OR|&&|\\|\\|)\\s?'
+    'name': 'keyword.operator.other.ee'
+}

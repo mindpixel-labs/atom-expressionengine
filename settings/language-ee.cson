@@ -1,0 +1,5 @@
+'.source.ee':
+  # EE Comment Style
+  'editor':
+    'commentStart': '{!-- '
+    'commentEnd': ' --}'
