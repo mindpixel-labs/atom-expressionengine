@@ -2,9 +2,10 @@
 ![](https://img.shields.io/maintenance/yes/2017.svg)
 ![](https://img.shields.io/badge/Atom-%20v1.20.1%20tested-brightgreen.svg)
 
+A package for Atom Editor with syntax highlighting and snippets for ExpressionEngine 3.x.
+
 ![](https://raw.githubusercontent.com/mindpixel-labs/atom-expressionengine/master/docs/images/expression-engine-syntax.png)
 
-A package for Atom Editor with syntax highlighting and snippets for ExpressionEngine 3.x.
 
 ## Documentation
 View the full [wiki](https://github.com/mindpixel-labs/atom-expressionengine/wiki) to learn about all the available options.
