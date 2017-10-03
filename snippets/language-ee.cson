@@ -8,9 +8,6 @@
       {/$1}
       $0
     """
-  '{path=\'...\'}':
-    'prefix': 'path'
-    'body': '{path=\'$1\'}'
   # Conditionals
   '{if condition}...{/if}':
     'prefix': 'if'
@@ -46,7 +43,19 @@
   '{layout:(...)}':
     'prefix': 'layout-var'
     'body': '{layout:$1}'
-    # Embed Tag
+    # Global Variables
+  '{site_url}':
+    'prefix': 'site_url'
+    'body': '{site_url}'
+  '{redirect="..."}':
+    'prefix': 'redirect'
+    'body': '{redirect="$1"}'
+  '{encode="..." title="..."}':
+    'prefix': 'encode'
+    'body': '{encode="$1" title="$2"}'
+  '{path=\'...\'}':
+    'prefix': 'path'
+    'body': '{path=\'$1\'}'
   '{embed="..."}':
     'prefix': 'embed'
     'body': '{embed="$1"}'
