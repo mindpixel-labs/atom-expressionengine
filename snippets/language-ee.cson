@@ -53,9 +53,13 @@
   '{encode="..." title="..."}':
     'prefix': 'encode'
     'body': '{encode="$1" title="$2"}'
-  '{path=\'...\'}':
-    'prefix': 'path'
-    'body': '{path=\'$1\'}'
   '{embed="..."}':
     'prefix': 'embed'
     'body': '{embed="$1"}'
+    # Path Variables
+  '{path=\'...\'}':
+    'prefix': 'path'
+    'body': '{path=\'$1\'}'
+  '{route=\'...\'}':
+    'prefix': 'route'
+    'body': '{route=\'$1\'}'
