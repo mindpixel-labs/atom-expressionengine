@@ -40,6 +40,12 @@
         'include': '#tags'
       }
       {
+        'include': '#double-quotes-ee'
+      }
+      {
+        'include': '#single-quotes-ee'
+      }
+      {
         'include': '#comparison-and-or-ee'
       }
       {
@@ -54,9 +60,6 @@
       {
         'include': '#module-tag-ee'
       }
-      {
-        'include': '#quoted-ee'
-      }
     ]
   }
 
@@ -67,10 +70,17 @@
       '1':
           'name': 'text.html.ee'
 
-  # Tag Quotes
-  'quoted-ee':
-    'match': '([\'""])([\\s._\\-a-zA-Z0-9\/|]+)?([\'""])'
+  # Tag Double Quotes
+  'double-quotes-ee':
+    'begin': '"'
+    'end'  : '"'
     'name': 'string.quoted.double.php.ee'
+
+  # Tag Double Quotes
+  'single-quotes-ee':
+    'begin': '\''
+    'end'  : '\''
+    'name': 'string.quoted.single.php.ee'
 
   # Tag Param
   'tag-param-ee':
