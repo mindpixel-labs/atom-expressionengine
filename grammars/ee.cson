@@ -69,7 +69,7 @@
 
   # Tag Quotes
   'quoted-ee':
-    'match': '([\'""])(.+)?([\'""])'
+    'match': '([\'""])([\\s._\\-a-zA-Z0-9\/|]+)?([\'""])'
     'name': 'string.quoted.double.php.ee'
 
   # Tag Param
