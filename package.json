@@ -1,6 +1,6 @@
 {
   "name": "atom-expressionengine",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Syntax highlighting and snippets for ExpressionEngine 3",
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
