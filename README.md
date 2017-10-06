@@ -6,7 +6,6 @@
 A package for Atom Editor with syntax highlighting and snippets for ExpressionEngine 3.x.
 
 ![](https://raw.githubusercontent.com/mindpixel-labs/atom-expressionengine/master/docs/images/expression-engine-syntax.png)
-Syntax Highlighter and Snippets for Atom
 
 ## Documentation
 View the full [wiki](https://github.com/mindpixel-labs/atom-expressionengine/wiki) to learn about all the available options.
