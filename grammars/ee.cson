@@ -49,7 +49,7 @@
         'include': '#comparison-and-or-ee'
       }
       {
-        'include': '#comparison-operators-ee'
+        'include': '#operators-ee'
       }
       {
         'include': '#tag-param-ee'
@@ -63,13 +63,6 @@
     ]
   }
 
-  # Module Tag
-  'module-tag-ee':
-    'match': '(\\w+:?|\\w+:?|\\w+=?)'
-    'captures':
-      '1':
-          'name': 'text.html.ee'
-
   # Tag Double Quotes
   'double-quotes-ee':
     'begin': '"'
@@ -81,6 +74,16 @@
     'begin': '\''
     'end'  : '\''
     'name': 'string.quoted.single.php.ee'
+
+  # Conditional Logical Operators
+  'comparison-and-or-ee':
+    'match': '\\s?(and|AND|or|OR|&&|\\|\\|)\\s?'
+    'name': 'keyword.operator.other.ee'
+
+  # Logic Operators
+  'operators-ee':
+    'match': '(\\(|\\)|<=|>=|<>|<|>|=|!=|==|===|!==|~|\\^=|\\*=|\\$=|\\^|\\*\\*|\\/|\\%|\\+|-)'
+    'name': 'keyword.operator.other.ee'
 
   # Tag Param
   'tag-param-ee':
@@ -94,13 +97,10 @@
     'match': '(\/?if(:else)?(:elseif)?)'
     'name': 'keyword.control.if.php.ee'
 
-  # Comparison Operators
-  'comparison-operators-ee':
-    'match': '(\\(|\\)|<=|>=|<>|<|>|=|!=|==|===|!==|~|\\^=|\\*=|\\$=|\\^|\\*\\*|\\/|\\%|\\+|-)'
-    'name': 'keyword.operator.other.ee'
-
-  # Conditional Logical Operators
-  'comparison-and-or-ee':
-    'match': '\\s?(and|AND|or|OR|&&|\\|\\|)\\s?'
-    'name': 'keyword.operator.other.ee'
+  # Module Tag
+  'module-tag-ee':
+    'match': '(\\w+:?|\\w+:?|\\w+=?)'
+    'captures':
+      '1':
+          'name': 'text.html.ee'
 }
