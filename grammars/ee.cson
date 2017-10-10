@@ -46,10 +46,10 @@
         'include': '#single-quotes-ee'
       }
       {
-        'include': '#comparison-and-or-ee'
+        'include': '#operators-ee'
       }
       {
-        'include': '#operators-ee'
+        'include': '#comparison-and-or-ee'
       }
       {
         'include': '#tag-param-ee'
@@ -77,7 +77,7 @@
 
   # Conditional Logical Operators
   'comparison-and-or-ee':
-    'match': '\\s?(and|AND|or|OR|&&|\\|\\|)\\s?'
+    'match': '\\s?(AND|OR|&&|\\|\\|)\\s?'
     'name': 'keyword.operator.other.ee'
 
   # Logic Operators
