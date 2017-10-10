@@ -56,6 +56,15 @@
   '{embed="..."}':
     'prefix': 'embed'
     'body': '{embed="$1"}'
+  '{title}':
+    'prefix': 'title'
+    'body': '{title}'
+  '{url_title}':
+    'prefix': 'url_title'
+    'body': '{url_title}'
+  '{page_url}':
+    'prefix': 'page_url'
+    'body': '{page_url}'
     # Path Variables
   '{path=\'...\'}':
     'prefix': 'path'
