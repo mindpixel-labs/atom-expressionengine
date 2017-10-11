@@ -44,27 +44,39 @@
     'prefix': 'layout-var'
     'body': '{layout:$1}'
     # Global Variables
-  '{site_url}':
-    'prefix': 'site_url'
-    'body': '{site_url}'
-  '{redirect="..."}':
-    'prefix': 'redirect'
-    'body': '{redirect="$1"}'
-  '{encode="..." title="..."}':
-    'prefix': 'encode'
-    'body': '{encode="$1" title="$2"}'
+  '{categories}':
+    'prefix': 'categories-pair'
+    'body': '{categories}$1{/categories}'
+  '{count}':
+    'prefix': 'count'
+    'body': '{count}'
   '{embed="..."}':
     'prefix': 'embed'
     'body': '{embed="$1"}'
-  '{title}':
-    'prefix': 'title'
-    'body': '{title}'
-  '{url_title}':
-    'prefix': 'url_title'
-    'body': '{url_title}'
+  '{encode="..." title="..."}':
+    'prefix': 'encode'
+    'body': '{encode="$1" title="$2"}'
+  '{entry_id}':
+    'prefix': 'entry_id'
+    'body': '{entry_id}'
   '{page_url}':
     'prefix': 'page_url'
     'body': '{page_url}'
+  '{redirect="..."}':
+    'prefix': 'redirect'
+    'body': '{redirect="$1"}'
+  '{site_url}':
+    'prefix': 'site_url'
+    'body': '{site_url}'
+  '{title}':
+    'prefix': 'title'
+    'body': '{title}'
+  '{total_results}':
+    'prefix': 'total_results'
+    'body': '{total_results}'
+  '{url_title}':
+    'prefix': 'url_title'
+    'body': '{url_title}'
     # Path Variables
   '{path=\'...\'}':
     'prefix': 'path'
