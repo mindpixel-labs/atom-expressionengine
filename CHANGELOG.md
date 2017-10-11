@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 1.0.0 - 2017-10-10
+## Added
+- Add title variable
+- Add url_title variable
+- Add page_url
+- Add support for string concatenation operator
+- Add changelog file
+
+## Changed
+- Remove ExpressionEngine from pagination boilerplate title
+
+## Breaking Changes
+- Remove lowercase versions that caused conflicts with parameters
+- Rename channel entries tag snippet. Now uses **entries** instead of **exp** to trigger.
+
+
 ## 0.4.1 - 2017-10-06
 ### Added
 - Organize patterns to match order of tag array
