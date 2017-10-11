@@ -1,9 +1,13 @@
+<p align="center">
 # atom-expressionengine
 ![](https://img.shields.io/badge/Status-Maintained-brightgreen.svg?style=flat-square)
 ![](https://img.shields.io/badge/Atom-%20v1.21.0%20tested-brightgreen.svg?style=flat-square)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/mindpixel-labs/atom-expressionengine.svg?style=social)](https://twitter.com/intent/tweet?text=ExpressionEngine%20Syntax%20Highlighter%20and%20Snippets%20for%20Atom%21%0A&url=https://github.com/mindpixel-labs/atom-expressionengine)
-
+</p>
+<p align="center">
 A package for Atom Editor with syntax highlighting and snippets for ExpressionEngine 3.x.
+</p>
+
 
 ![](https://raw.githubusercontent.com/mindpixel-labs/atom-expressionengine/master/docs/images/expression-engine-syntax.png)
 
