@@ -27,7 +27,13 @@
         'include': '#comment'
       }
       {
-        'include': '#conditionals-tags'
+        'include': '#conditionals-tags-elseif'
+      }
+      {
+        'include': '#conditionals-tags-else'
+      }
+      {
+        'include': '#conditionals-tags-opening-closing'
       }
       {
         'include': '#module-tags'
@@ -42,8 +48,8 @@
     'name': 'comment.block.ee'
   }
 
-  # Template Tags
-  'conditionals-tags': {
+  # Conditional Tags Opening and Closing
+  'conditionals-tags-opening-closing': {
     'begin': '{(\/?if)'
     'end': '}'
     'captures':
@@ -66,6 +72,41 @@
         'include': '#single-quotes'
       }
     ]
+  }
+
+  # Conditional Tags ElseIf
+  'conditionals-tags-elseif': {
+    'begin': '{(\/?if:elseif)'
+    'end': '}'
+    'captures':
+      '1':
+        'name': 'keyword.control.if.php.ee'
+    'patterns': [
+      {
+        'include': '#boolean-comparisons'
+      }
+      {
+        'include': '#logical-operators'
+      }
+      {
+        'include': '#comparison-and-or'
+      }
+      {
+        'include': '#double-quotes'
+      }
+      {
+        'include': '#single-quotes'
+      }
+    ]
+  }
+
+  # Conditional Tags Else
+  'conditionals-tags-else': {
+    'begin': '{(\/?if:else)'
+    'end': '}'
+    'captures':
+      '1':
+        'name': 'keyword.control.if.php.ee'
   }
 
   # Template Tags
