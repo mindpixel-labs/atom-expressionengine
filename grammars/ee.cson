@@ -1,8 +1,15 @@
+# Scope Name
 'scopeName': 'source.ee'
+
+# Syntax Name
 'name': 'ExpressionEngine 3'
+
+# File Types
 'fileTypes': [
   'html'
 ]
+
+# Global Patterns
 'patterns': [
   {
     'include': 'text.html.basic'
@@ -11,6 +18,8 @@
     'include': '#components'
   }
 ]
+
+# Component Repository
 'repository': {
   'components': {
     'patterns': [
