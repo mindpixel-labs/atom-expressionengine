@@ -40,6 +40,9 @@
         'include': '#tags'
       }
       {
+        'include': '#module-tag-open-close-ee'
+      }
+      {
         'include': '#double-quotes-ee'
       }
       {
@@ -62,6 +65,17 @@
       }
     ]
   }
+
+  # Tag Double Quotes
+  'module-tag-open-close-ee':
+    'match': '\\/?(exp):(\\w*):(\\w*)?'
+    'captures':
+      '1':
+        'name': 'support.function.module.ee'
+      '2':
+        'name': 'support.function.module.ee'
+      '3':
+        'name': 'support.function.method.ee'
 
   # Tag Double Quotes
   'double-quotes-ee':
@@ -91,6 +105,11 @@
     'captures':
       '1':
           'name': 'support.function.construct.begin.ee'
+
+  # Boolean Values
+    'boolean-ee':
+      'match': '(TRUE|FALSE|1|0|-1|"1"|"0"|"-1")'
+      'name': '.constant.other.php.ee'
 
   # Conditional Keywords
   'conditionals-ee':
