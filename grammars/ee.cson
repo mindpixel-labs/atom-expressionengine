@@ -179,7 +179,7 @@
 
   # Boolean Comparisons
   'boolean-comparisons':
-    'match': '\\s?(TRUE|FALSE|1|0|-1|"1"|"0"|"-1")\\s?'
+    'match': '(?<!\\w)(TRUE|FALSE|1|0|-1|"1"|"0"|"-1")'
     'captures':
       '1':
           'name': 'constant.other.php.ee'
