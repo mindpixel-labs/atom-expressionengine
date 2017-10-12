@@ -179,10 +179,4 @@
     'captures':
       '1':
           'name': 'constant.other.php.ee'
-
-  # Conditional Keywords
-  'conditionals-ee':
-    'match': '(\/?if(:else)?(:elseif)?)'
-    'name': 'keyword.control.if.php.ee'
-
 }
