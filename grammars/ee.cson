@@ -18,6 +18,9 @@
         'include': '#comment'
       }
       {
+        'include': '#conditionals-tags'
+      }
+      {
         'include': '#tags'
       }
     ]
@@ -28,6 +31,32 @@
     'begin': '\\{!--'
     'end': '--\\}'
     'name': 'comment.block.ee'
+  }
+
+  # Template Tags
+  'conditionals-tags': {
+    'begin': '{(\/?if)'
+    'end': '}'
+    'captures':
+      '1':
+        'name': 'keyword.control.if.php.ee'
+    'patterns': [
+      {
+        'include': '#boolean-comparisons'
+      }
+      {
+        'include': '#logical-operators'
+      }
+      {
+        'include': '#comparison-and-or'
+      }
+      {
+        'include': '#double-quotes'
+      }
+      {
+        'include': '#single-quotes'
+      }
+    ]
   }
 
   # Template Tags
@@ -43,32 +72,20 @@
         'include': '#module-tag-open-close-ee'
       }
       {
-        'include': '#double-quotes-ee'
+        'include': '#double-quotes'
       }
       {
-        'include': '#single-quotes-ee'
+        'include': '#single-quotes'
       }
       {
-        'include': '#operators-ee'
-      }
-      {
-        'include': '#comparison-and-or-ee'
-      }
-      {
-        'include': '#tag-param-ee'
-      }
-      {
-        'include': '#conditionals-ee'
-      }
-      {
-        'include': '#module-tag-ee'
+        'include': '#tag-parameter'
       }
     ]
   }
 
   # Tag Double Quotes
   'module-tag-open-close-ee':
-    'match': '\\/?(exp):(\\w*):(\\w*)?'
+    'match': '\\/?(exp):(\\w*):?(\\w*)?'
     'captures':
       '1':
         'name': 'support.function.module.ee'
@@ -78,48 +95,44 @@
         'name': 'support.function.method.ee'
 
   # Tag Double Quotes
-  'double-quotes-ee':
+  'double-quotes':
     'begin': '"'
     'end'  : '"'
     'name': 'string.quoted.double.php.ee'
 
   # Tag Double Quotes
-  'single-quotes-ee':
+  'single-quotes':
     'begin': '\''
     'end'  : '\''
     'name': 'string.quoted.single.php.ee'
 
   # Conditional Logical Operators
-  'comparison-and-or-ee':
+  'comparison-and-or':
     'match': '\\s?(AND|OR|&&|\\|\\|)\\s?'
     'name': 'keyword.operator.other.ee'
 
   # Logic Operators
-  'operators-ee':
+  'logical-operators':
     'match': '(\\(|\\)|<=|>=|<>|<|>|=|!=|==|===|!==|~|\\^=|\\*=|\\$=|\\^|\\*\\*|\\/|\\%|\\+|-|\\.)'
     'name': 'keyword.operator.other.ee'
 
   # Tag Param
-  'tag-param-ee':
+  'tag-parameter':
     'match': '(\\w+)=|\\s(\\w+)\\s'
     'captures':
       '1':
           'name': 'support.function.construct.begin.ee'
 
-  # Boolean Values
-    'boolean-ee':
-      'match': '(TRUE|FALSE|1|0|-1|"1"|"0"|"-1")'
-      'name': '.constant.other.php.ee'
+  # Tag Param
+  'boolean-comparisons':
+    'match': '\\s?(TRUE|FALSE)\\s?'
+    'captures':
+      '1':
+          'name': 'constant.other.php.ee'
 
   # Conditional Keywords
   'conditionals-ee':
     'match': '(\/?if(:else)?(:elseif)?)'
     'name': 'keyword.control.if.php.ee'
 
-  # Module Tag
-  'module-tag-ee':
-    'match': '(\\w+:?|\\w+:?|\\w+=?)'
-    'captures':
-      '1':
-          'name': 'text.html.ee'
 }
