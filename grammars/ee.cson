@@ -132,7 +132,7 @@
       '1':
           'name': 'support.function.construct.begin.ee'
 
-  # Tag Param
+  # Boolean Comparisons
   'boolean-comparisons':
     'match': '\\s?(TRUE|FALSE)\\s?'
     'captures':
