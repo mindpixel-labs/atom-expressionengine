@@ -21,7 +21,7 @@
         'include': '#conditionals-tags'
       }
       {
-        'include': '#tags'
+        'include': '#module-tags'
       }
     ]
   }
@@ -60,13 +60,13 @@
   }
 
   # Template Tags
-  'tags': {
+  'module-tags': {
     'begin': '({\/?)'
     'end': '(})'
     'name': 'text.html.ee'
     'patterns': [
       {
-        'include': '#tags'
+        'include': '#module-tags'
       }
       {
         'include': '#module-tag-open-close-ee'
