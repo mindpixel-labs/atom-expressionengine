@@ -1,0 +1,15 @@
+'.source.ee':
+  # Conditionals
+  '{if condition}...{/if}':
+    'prefix': 'if'
+    'body': """
+      {if $1}
+        $0
+      {/if}
+    """
+  '{if:elseif}':
+    'prefix': 'elseif'
+    'body': '{if:elseif $1}'
+  '{if:else}':
+    'prefix': 'else'
+    'body': '{if:else}'

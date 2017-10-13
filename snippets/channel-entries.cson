@@ -1,0 +1,9 @@
+'.source.ee':
+  # Channel Entries Tag
+  '{exp:channel:entries channel="..."}':
+    'prefix': 'entries'
+    'body': """
+      {exp:channel:entries channel="$1"}
+        $0
+      {/exp:channel:entries}
+    """

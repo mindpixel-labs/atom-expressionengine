@@ -1,0 +1,14 @@
+'.source.ee':
+  # Layout Tag
+  '{layout="..."}':
+    'prefix': 'layout'
+    'body': '{layout="$1"}'
+  '{layout:set name="..." value="..."}':
+    'prefix': 'layout-set'
+    'body': '{layout:set name="$1" value="$2"}$0'
+  '{layout:set name="..."}...{/layout:set}':
+    'prefix': 'layout-set-pair'
+    'body': '{layout:set name="$1"}$2{/layout:set}$0'
+  '{layout:(...)}':
+    'prefix': 'layout-var'
+    'body': '{layout:$1}'

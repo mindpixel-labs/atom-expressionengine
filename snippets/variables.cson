@@ -1,0 +1,24 @@
+'.source.ee':
+  # Global Variables - Unwrapped
+  # These are variables that can be used unwrapped, wrapped or have a parameter equivalent
+  'count':
+    'prefix': 'count'
+    'body': 'count'
+  'site_url':
+    'prefix': 'site_url'
+    'body': 'site_url'
+  'entry_id':
+    'prefix': 'entry_id'
+    'body': 'entry_id'
+  'page_url':
+    'prefix': 'page_url'
+    'body': 'page_url'
+  'title':
+    'prefix': 'title'
+    'body': 'title'
+  'total_results':
+    'prefix': 'total_results'
+    'body': 'total_results'
+  'url_title':
+    'prefix': 'url_title'
+    'body': 'url_title'

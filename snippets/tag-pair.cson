@@ -1,0 +1,10 @@
+'.source.ee':
+  # Variable Tag Pair
+  '{var}...{/var}':
+    'prefix': 'var-pair'
+    'body': """
+      {$1}
+        $2
+      {/$1}
+      $0
+    """

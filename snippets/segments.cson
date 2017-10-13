@@ -1,0 +1,11 @@
+'.source.ee':
+  # Segments
+  'segment_n':
+    'prefix': 'segment'
+    'body': 'segment_$1'
+  'segment:segment_name':
+    'prefix': 'segment_name'
+    'body': 'segment:$1'
+  'last_segment':
+    'prefix': 'last_segment'
+    'body': 'last_segment'

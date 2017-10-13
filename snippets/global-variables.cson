@@ -1,0 +1,22 @@
+'.source.ee':
+  # Global Variables - Wrapped
+  # These are variables that can only be used when wrapped in braces
+  '{categories}':
+    'prefix': 'categories-pair'
+    'body': '{categories}$1{/categories}'
+  '{embed="..."}':
+    'prefix': 'embed'
+    'body': '{embed="$1"}'
+  '{encode="..." title="..."}':
+    'prefix': 'encode'
+    'body': '{encode="$1" title="$2"}'
+  '{redirect="..."}':
+    'prefix': 'redirect'
+    'body': '{redirect="$1"}'
+  # Path Variables
+  '{path=\'...\'}':
+    'prefix': 'path'
+    'body': '{path=\'$1\'}'
+  '{route=\'...\'}':
+    'prefix': 'route'
+    'body': '{route=\'$1\'}'
