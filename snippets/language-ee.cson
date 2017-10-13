@@ -78,6 +78,12 @@
   'page_url':
     'prefix': 'page_url'
     'body': 'page_url'
+  'segment_n':
+    'prefix': 'segment'
+    'body': 'segment_$1'
+  'segment:segment_name':
+    'prefix': 'segment_name'
+    'body': 'segment:$1'
   'title':
     'prefix': 'title'
     'body': 'title'
