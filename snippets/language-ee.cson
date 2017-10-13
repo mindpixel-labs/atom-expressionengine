@@ -84,6 +84,9 @@
   'segment:segment_name':
     'prefix': 'segment_name'
     'body': 'segment:$1'
+  'last_segment':
+    'prefix': 'last_segment'
+    'body': 'last_segment'
   'title':
     'prefix': 'title'
     'body': 'title'
