@@ -1,0 +1,31 @@
+'.source.ee':
+  'category_count':
+    'prefix': 'category_count'
+    'body': 'category_count'
+  'category_description':
+    'prefix': 'category_description'
+    'body': 'category_description'
+  'category_group':
+    'prefix': 'category_group'
+    'body': 'category_group'
+  'category_id':
+    'prefix': 'category_id'
+    'body': 'category_id'
+  'category_image':
+    'prefix': 'category_image'
+    'body': 'category_image'
+  'category_name':
+    'prefix': 'category_name'
+    'body': 'category_name'
+  'category_name':
+    'prefix': 'category_name'
+    'body': 'category_name'
+  'category_reverse_count':
+    'prefix': 'category_reverse_count'
+    'body': 'category_reverse_count'
+  'category_total_results':
+    'prefix': 'category_total_results'
+    'body': 'category_total_results'
+  'category_url_title':
+    'prefix': 'category_url_title'
+    'body': 'category_url_title'
