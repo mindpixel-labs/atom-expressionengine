@@ -1,7 +1,7 @@
 '.source.ee':
     # Pagination Tags
     '{paginate}{pagination_links}{/paginate}':
-      'prefix': 'paginate'
+      'prefix': 'pagination_links'
       'body': """
         {paginate}
           {pagination_links}

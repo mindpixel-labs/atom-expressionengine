@@ -1,9 +1,6 @@
 '.source.ee':
   # Global Variables - Wrapped
   # These are variables that can only be used when wrapped in braces
-  '{categories}':
-    'prefix': 'categories-pair'
-    'body': '{categories}$1{/categories}'
   '{embed="..."}':
     'prefix': 'embed'
     'body': '{embed="$1"}'

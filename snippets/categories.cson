@@ -1,4 +1,7 @@
 '.source.ee':
+  '{categories}':
+    'prefix': 'categories-pair'
+    'body': '{categories}$1{/categories}'
   'category_count':
     'prefix': 'category_count'
     'body': 'category_count'
