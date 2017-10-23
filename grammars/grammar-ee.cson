@@ -36,6 +36,9 @@
         'include': '#conditionals-tags-opening-closing'
       }
       {
+        'include': '#layout-set-tag'
+      }
+      {
         'include': '#module-tags'
       }
     ]
@@ -70,6 +73,30 @@
       }
       {
         'include': '#single-quotes'
+      }
+    ]
+  }
+
+  # Layout Set Tag
+  'layout-set-tag': {
+    'begin': '{(layout)(:)(set)'
+    'end': '}'
+    'captures':
+      '1':
+        'name': 'support.function.construct.begin.ee'
+      '2':
+        'name': 'text.html.ee'
+      '3':
+        'name': 'support.function.construct.begin.ee'
+    'patterns': [
+      {
+        'include': '#double-quotes'
+      }
+      {
+        'include': '#single-quotes'
+      }
+      {
+        'include': '#tag-parameter'
       }
     ]
   }
