@@ -77,30 +77,6 @@
     ]
   }
 
-  # Layout Set Tag
-  'layout-set-tag': {
-    'begin': '{(layout)(:)(set)'
-    'end': '}'
-    'captures':
-      '1':
-        'name': 'support.function.construct.begin.ee'
-      '2':
-        'name': 'text.html.ee'
-      '3':
-        'name': 'support.function.construct.begin.ee'
-    'patterns': [
-      {
-        'include': '#double-quotes'
-      }
-      {
-        'include': '#single-quotes'
-      }
-      {
-        'include': '#tag-parameter'
-      }
-    ]
-  }
-
   # Conditional Tags ElseIf
   'conditionals-tags-elseif': {
     'begin': '{(\/?if:elseif)'
@@ -134,6 +110,30 @@
     'captures':
       '1':
         'name': 'keyword.control.if.php.ee'
+  }
+
+  # Layout Set Tag
+  'layout-set-tag': {
+    'begin': '{(layout)(:)(set)'
+    'end': '}'
+    'captures':
+      '1':
+        'name': 'support.function.construct.begin.ee'
+      '2':
+        'name': 'text.html.ee'
+      '3':
+        'name': 'support.function.construct.begin.ee'
+    'patterns': [
+      {
+        'include': '#double-quotes'
+      }
+      {
+        'include': '#single-quotes'
+      }
+      {
+        'include': '#tag-parameter'
+      }
+    ]
   }
 
   # Template Tags
