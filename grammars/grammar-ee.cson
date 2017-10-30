@@ -114,7 +114,7 @@
 
   # Layout Set Tag
   'layout-set-tag': {
-    'begin': '{(layout)(:)(set)'
+    'begin': '{(\/?layout)(:)(set)'
     'end': '}'
     'captures':
       '1':
