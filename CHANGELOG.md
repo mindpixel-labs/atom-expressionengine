@@ -4,16 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## 1.1.0 - In Development
+## 1.1.0
 ## Added
 - Add list of keywords for variables and parameters
 - Move category tag pair to categories.cson file
 - Rename paginate snippet to pagination_links to avoid conflicts with channel entries parameter
 - Add category snippets
-- Breakout snippets to individual partials for better orginzation
+- Breakout snippets to individual partials for better organization
 - Rename files for better fuzzy search filtering within Atom when editing
 - Add URL segment snippets
-- Move variables and tags that can be used with or without braces to their own sections for more flexbility inside of conditional and module tags
+- Move variables and tags that can be used with or without braces to their own sections for more flexibility inside of conditional and module tags
 - Add support for layout set tag
 - Add full list of boolean comparison keywords
 - Add negative look behind to ensure no characters are present with numerical values
