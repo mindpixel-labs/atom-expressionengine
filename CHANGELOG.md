@@ -14,10 +14,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Rename files for better fuzzy search filtering within Atom when editing
 - Add URL segment snippets
 - Move variables and tags that can be used with or without braces to their own sections for more flexbility inside of conditional and module tags
+- Add support for layout set tag
 - Add full list of boolean comparison keywords
 - Add negative look behind to ensure no characters are present with numerical values
 - Add ability to match channel entries/module tags
-- Seperate conditional and module tags for more flexibility
+- Separate conditional and module tags for more flexibility
 - Remove old conditionals pattern
 - Break out nested conditional patterns
 - Correct boolean pattern heading comment
