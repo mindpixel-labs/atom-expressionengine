@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # Variable Tag Pair
   '{var}...{/var}':
     'prefix': 'var-pair'

@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # Channel Entries Tag
   '{exp:channel:entries channel="..."}':
     'prefix': 'entries'

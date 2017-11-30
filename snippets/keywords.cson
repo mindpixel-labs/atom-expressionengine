@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # Global Variables - Unwrapped
   # These are variables that can be used unwrapped, wrapped or have a parameter equivalent
   'author_id':

@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # Global Variables - Wrapped
   # These are variables that can only be used when wrapped in braces
   '{embed="..."}':

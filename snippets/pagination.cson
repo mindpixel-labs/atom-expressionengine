@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
     # Pagination Tags
     '{paginate}{pagination_links}{/paginate}':
       'prefix': 'pagination_links'
