@@ -1,8 +1,12 @@
 # Scope Name
-'scopeName': 'source.ee'
+'scopeName': 'text.html.ee'
 
 # Syntax Name
 'name': 'ExpressionEngine 3'
+
+# Folding Markers
+'foldingStartMarker': '(^\\s*/\\*|(\\{|\\[|\\()\\s*$)'
+'foldingStopMarker': '(\\*/|^\\s*(\\}|\\]|\\)))'
 
 # File Types
 'fileTypes': [
