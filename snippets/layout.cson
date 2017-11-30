@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # Layout Tag
   '{layout="..."}':
     'prefix': 'layout'

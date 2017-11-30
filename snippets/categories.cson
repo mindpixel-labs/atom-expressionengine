@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   '{categories}':
     'prefix': 'categories-pair'
     'body': '{categories}$1{/categories}'

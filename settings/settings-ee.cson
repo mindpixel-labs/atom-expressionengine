@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # EE Comment Style
   'editor':
     'commentStart': '{!-- '

@@ -1,4 +1,4 @@
-'.source.ee':
+'.text.html.ee':
   # Conditionals
   '{if condition}...{/if}':
     'prefix': 'if'
