@@ -4,10 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 1.1.4
+## Added
+- Correct spelling issues in the readme file
+- Updated package.json to show support for ExpressionEngine 4.x
+
 ## 1.1.3
 ## Added
 - Checked and added support for Atom 1.23.3
 - Updated readme to show support for ExpressionEngine 4.x
+
 ## 1.1.2
 ## Added
 - Add proper scope name to snippets and settings files
