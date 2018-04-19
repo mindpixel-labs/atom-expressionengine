@@ -2,7 +2,7 @@
 'scopeName': 'text.html.ee'
 
 # Syntax Name
-'name': 'ExpressionEngine 3'
+'name': 'ExpressionEngine 4'
 
 # Folding Markers
 'foldingStartMarker': '(^\\s*/\\*|(\\{|\\[|\\()\\s*$)'
