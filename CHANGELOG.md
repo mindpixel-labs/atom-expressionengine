@@ -4,10 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 1.1.6
+## Added
+- Minor text updates to the changelog file
+
 ## 1.1.5
 ## Added
 - Tested with Atom 1.26.0
-- Updated the syntax name in grammar-ee.cson to shoe ExpressionEngine 4
+- Updated the syntax name in grammar-ee.cson to show ExpressionEngine 4
 
 ## 1.1.4
 ## Added
