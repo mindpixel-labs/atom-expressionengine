@@ -20,9 +20,6 @@
   'category_name':
     'prefix': 'category_name'
     'body': 'category_name'
-  'category_name':
-    'prefix': 'category_name'
-    'body': 'category_name'
   'category_reverse_count':
     'prefix': 'category_reverse_count'
     'body': 'category_reverse_count'
